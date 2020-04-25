@@ -1,8 +1,6 @@
-class hello {
-    constructor() {
-    }
+export class hello {
+  constructor() {}
+  public static sayHello(): void {
+    console.log("hello");
+  }
 }
-
-
-
-console.log(1);
